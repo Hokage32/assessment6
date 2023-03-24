@@ -1,0 +1,30 @@
+Bug Report for Test Case 1
+
+Description:
+
+"Wins" counter does not increment by 1 when the user has won a match.
+
+Steps to Reproduce:
+
+1. Navigate to http://localhost:4000
+
+2. Click "Draw" (at the bottom of page)
+
+3. When various robots are displayed, click "Add to Duo" on any of the choices (make 2 choices)
+
+4. Then at the bottom of the page select "DUEL!"
+
+5. The user will then be prompted with "You Won!"
+
+Expected Result:
+
+ If the user has won, the "Wins" counter should increment by 1.
+
+Actual Result:
+
+ When the user has won, the "Losses" counter increments by 1.
+
+ Environment:
+
+ Chrome: Version 111.0.5563.110 (Official Build) (arm64)
+ MacBook: macOS Ventura Version 13.2.1

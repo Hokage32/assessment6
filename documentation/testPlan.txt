@@ -1,0 +1,22 @@
+Duel Duo Test Plan
+
+Overview:
+Test functionality of the app.
+
+Link: http://localhost:4000
+
+Test Criteria:
+
+1. Make sure bots are displayed
+2. Make sure wins and losses are displayed correctly
+3. Make sure player can only select 2 bots
+
+Entry Criteria:
+
+1. Test Criteria provided
+2. Running version of the app
+3. computer to run localhost:4000
+
+Exit Criteria:
+
+1. All tests must be passed
